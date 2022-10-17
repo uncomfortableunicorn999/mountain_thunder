@@ -1,8 +1,24 @@
 
+
 body{
     /* font-family: "Figtree"; */
     background-color: rgba(92, 123, 91, 1)    ;
     padding-top: 1rem;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 h1,
@@ -21,6 +37,7 @@ h4 {
     font-weight:bold;
     font-size: larger;
     padding-left: 1rem;
+    
 }
 .cart{
     height: 3rem;
@@ -65,10 +82,10 @@ h4 {
 }
 .shop-button {
     color:rgba(92, 123, 91, 1) ;
+    background-color: white;
     height: 6rem;
     width: 10rem;
     border-radius: 10%;
-    background-color: white;
    
 }
 .shop-button:hover {
@@ -168,5 +185,10 @@ h4 {
     .column {
       width: 100%;
     }
+
+    /* w3 schools */
+
+
   }
+
 

@@ -1,0 +1,171 @@
+
+body{
+    /* font-family: "Figtree"; */
+    background-color: rgba(92, 123, 91, 1)    ;
+    padding-top: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: white;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 2rem;
+}
+
+.nav-bar-item{
+    padding: .5rem;
+    color:white;
+    font-weight:bold;
+    font-size: larger;
+    padding-left: 1rem;
+}
+.cart{
+    height: 3rem;
+    width: auto;
+}
+.user_icon{
+
+    height: 3rem;
+    width: auto;
+    padding-left: 20px;
+}
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color:white; /* Red */
+    color: black;
+    margin-bottom: 15px;
+    font-size: larger;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+.coffee-background{
+    background-image: url(./assets/download-2.jpg);
+    background-size: cover;
+    /* filter: contrast(50%); */
+    height: calc(100vh - 56px); 
+}
+.shop-button {
+    color:rgba(92, 123, 91, 1) ;
+    height: 6rem;
+    width: 10rem;
+    border-radius: 10%;
+   
+}
+.shop-button:hover {
+    background-color: rgba(92, 123, 91, 1);
+    color: white;
+}
+.row {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+
+  .column2 {
+    float: left;
+    width: 10rem;
+    /* height: 10rem; */
+  }
+  .column3 {
+    float: left;
+    width:12rem;
+    /* height: 10rem; */
+  }
+  
+
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .content {
+    background-color: rgb(192, 177, 156);
+    padding: 10px;
+  }
+
+
+  /* from https://sirv.com/help/articles/hover-change-image/ */
+  .figure {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+  }
+  .figure img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.image-hover {
+    opacity: 1;
+  }
+
+.link
+{
+   color:white;
+   text-decoration: none; 
+   text-decoration-color: white;
+   background-color: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    width: auto;
+    padding-top: 2rem;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 40%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+

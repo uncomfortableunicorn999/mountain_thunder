@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Structure based off of Jeff's bootstrap tutorial https://www.youtube.com/watch?v=6Df6xbs5m8A -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mountain Thunder</title> 
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+            <img class="navbar-brand " src="./assets/mtn-menu-logo.png">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class=" navbar-item nav-bar-item" > Home </li>
+                    <li class="navbar-item  nav-bar-item">Visit Us</li>
+                    <li class="navbar-item nav-bar-item">Shop</li>
+                    <li class="navbar-item  nav-bar-item">Vacation Rentals</li>
+                    <li class="navbar-item  nav-bar-item"> FAQs</li>
+                    <img class="cart" src="./assets/cart_words.png">
+                    <img class="user_icon" src="./assets/sign_in.png">
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="alert" style="color:rgb(113, 103, 89)">
+        <span class="closebtn" style="color:rgb(113, 103, 89)" onclick="">&times;</span>
+        Mountain Thunder will be open both Ironman days, 10/6 and 10/8.
+    </div>
+    <div class="alert" style="color:rgb(113, 103, 89)">
+        <span class="closebtn" style="color:rgb(113, 103, 89)" onclick="">&times;</span>
+        Farm Visitors, please read <a href=""> these</a>  important guidlines
+    </div>
+
+    <div class="d-flex flex-column coffee-background justify-content-center align-items-center" style="padding-bottom:1cm;">
+        <h1 style="font-size: 4rem;">Mountain Thunder Plantation</h1>
+        <h2 style="font-size: 1.5rem; padding-left: 2rem; padding-right: 2rem;">It takes a lot of work to consistently make exceptional 
+            100% Kona coffee. From growing coffee in ideal conditions 
+            to hand-picking each bean from the trees to meticulous 
+            attention to how we process and roast our coffee, Mountain
+            Thunder Coffee Plantation has worked hard to produce the
+            world's finest gourmet coffee. 
+        </h2>
+    </div>
+
+
+    <!-- the hover stuff comes from https://sirv.com/help/articles/hover-change-image/ -->
+    <!-- the image gallery stuff comes from w3 schools -->
+
+    <div class=" d-flex flex-column container-fluid bg-white justify-content-center align-items-center" style="padding-top: 3rem; padding-bottom: 3rem;">
+        <h2   style="color: rgb(113, 103, 89); font-size: 2rem;">Our Coffee</h2>
+        <h3  style="color: rgb(113, 103, 89); font-size: 1rem;">Hover over each image for more information about the variety</h2>
+        <div class="row">
+            <div class="column">
+              <div class="content">
+                <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+                <div class="figure">
+                    <img class="Sirv image-main" src="./assets/coffees/pr-vieanna-16oz-1.jpg" data-src="./assets/peaberry-vienna-8oz.jpg" >
+                    <img class="Sirv image-hover" data-src="./assets/coffees/private_reserve_description.png">
+                </div>
+
+                <h7>100% Kona Private Reserve Coffee 16oz</h7>
+                <p>$48.90</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+                <div class="figure">
+                    <img class="Sirv image-main" src="./assets/coffees/prem-fr-16oz.jpg" data-src="./assets/peaberry-vienna-8oz.jpg" >
+                    <img class="Sirv image-hover" data-src="./assets/coffees/mtn_thnder_premium_description.png">
+                </div>
+
+                <h7>100% Kona Premium Coffee 16oz &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h7>
+                <p>$44.90</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <!-- https://sirv.com/help/articles/hover-change-image/ -->
+                <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+                <div class="figure">
+                    <img class="Sirv image-main" src="./assets/coffees/peaberry-fr-16oz-1.jpg" data-src="./assets/peaberry-vienna-8oz.jpg" >
+                    <img class="Sirv image-hover" data-src="./assets/coffees/peaberry_description.png">
+                </div>
+
+                <h7>100% Kona Peaberry Coffee 16oz &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h7>
+                <p>$65.90</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <!-- https://sirv.com/help/articles/hover-change-image/ -->
+                <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+                <div class="figure">
+                    <img class="Sirv image-main" src="./assets/coffees/decaf-vieanna-16oz-1.jpg" data-src="./assets/peaberry-vienna-8oz.jpg" >
+                    <img class="Sirv image-hover" data-src="./assets/coffees/decaf_description.png">
+                </div>
+
+                <h7>100% Kona Decaf Coffee 16oz &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h7>
+                <p>$49.90</p>
+              </div>
+            </div>        
+        </div>
+        
+
+        <button class="shop-button">Shop Our Products</button>
+    </div>
+
+    <div class="d-flex flex-column  justify-content-center align-items-center">
+        <div class="row">
+            <div class="column2">
+                <img src="./assets/kcc-seal100.png" style="width:100%">
+            </div>
+            <div class="column2">
+                <img src="./assets/kcfs_s-1.png" style="width:100%">
+            </div>
+            <div class="column2">
+                <img src="./assets/kkcc100.png" style="width:100%">
+            </div>
+            <div class="column2">
+                <img src="./assets/scaj100.png" style="width:100%">
+            </div>
+            <div class="column2">
+                <img src="./assets/USDA-organic-seal.png" style="width:100%">
+            </div>
+            <div class="column2">
+                <img src="./assets/mtn-logo.png" style="width:100%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column3" style="color: white;">
+                <a href=""> 
+                <div class="link">
+                    Contact Us
+                </div>
+               </a>
+            </div>
+            <div class="column3" style="color: white;">
+                <a href="">
+                    <div class="link">
+                        Terms of Service                   
+                     </div>
+                </a>
+            </div>
+            <div class="column3" style="color: white;">
+                <a href="">
+                    <div class="link">
+                        Refunds and Returns
+                    </div>
+                </a>
+            </div>
+            <div class="column3" style="color: white;">
+                <a href="">
+                    <div class="link">
+                        Shipping
+                    </div>
+                </a>
+            </div>
+            <div class="column3" style="color: white;"><a href="">
+                <div class="link">
+                    Privacy Policy
+                </div>
+            </a></div>
+        </div>
+    </div>      
+</body>
